@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+
+<body>
+    <h1>Imagens em diferentes tamanhos</h1>
+    <p>Tente aumentar e diminuir o zoom!</p>
+
+    <picture>
+        <source media="(max-width:550px)" srcset="imagens\pequena.png">
+        <source media="(max-width:1050px)" srcset="imagens\media.png">
+        <img src="imagens/grande.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo audios</h1>
+    <p>Reproduzindo audio em HTML5</p>
+
+
+    <audio src="midia/Pouncin and Bouncin - The Soundlings.mp3" controls></audio>
+
+
+</body>
+
+</html>

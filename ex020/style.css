@@ -1,0 +1,57 @@
+@charset "UTF-8 ";
+
+/* em HTML é id     = em CSS é #
+   em HTML é class  = em CSS é . */
+
+body {
+    background-color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    color: black;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: blueviolet;
+    color: chartreuse;
+}
+
+h2 {
+    color: brown;
+}
+
+div {
+    text-align: center;
+    background-color: brown;
+    border: 1px solid black;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover {
+    background-color: yellow;
+}
+
+div:hover#div1 {
+    background-color: green;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+a:visited {
+    color: green;
+}
+
+a::after {
+    content: " (link)";
+    text-decoration: none;
+    color: darkgray;
+}
