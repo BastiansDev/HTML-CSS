@@ -25,10 +25,12 @@ header {
     padding: 50px;
 
 
+
 }
 
 header>h1 {
     font-variant: small-caps;
+    font-size: 60px;
 
 }
 
@@ -49,18 +51,39 @@ section {
 
 }
 
+section>p {
+    padding-bottom: 1em;
+    font-size: 35px;
+    line-height: 1.5;
+
+}
+
 section.normal {
     background-color: white;
 }
 
 section.imagem {
     background-color: darkgrey;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
 }
 
 section.imagem>p {
     background-color: rgba(0, 0, 0, 0.356);
     width: 300px;
     color: white;
+}
+
+section#img01 {
+    background-image: url("../Desafio12/imagens/background001.jpg");
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url("../Desafio12/imagens/background002.jpg");
+    background-position: right center;
+    background-size: cover;
 }
 
 
